@@ -457,7 +457,6 @@
 .whoImgCards {
   width: 100%;
   display: flex;
-  border: 1px solid red;
 }
 .whoImgCards .imagess {
   width: 100%;
@@ -474,6 +473,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 60px;
 }
 .sell .sellTop .sellText {
   display: flex;
@@ -503,12 +503,65 @@
   gap: 20px;
 }
 .sell .sellTop .sellBtns .sellBtn {
-  color: #3A0CA3;
-  border: 1px solid #3A0CA3;
+  color: #3a0ca3;
+  border: 1px solid #3a0ca3;
   padding: 12px 30px;
   border-radius: 40px;
 }
 .sell .sellTop .sellBtns .active {
   color: #ffffff;
-  background-color: #3A0CA3;
+  background-color: #3a0ca3;
+}
+
+.sellCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+  gap: 25px;
+}
+.sellCards .sellCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 10px 20px 30px 10px rgba(0, 0, 0, 0.0509803922);
+}
+.sellCards .sellCard:hover {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  transition: all 0.5s ease;
+}
+.sellCards .sellCard img {
+  width: 100%;
+  max-width: 250px;
+}
+.sellCards .sellCard .cardTitle {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sellCards .sellCard h3 {
+  font-size: 27.6px;
+  font-weight: 600;
+  line-height: 41.4px;
+  color: #2b2b2b;
+}
+.sellCards .sellCard h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 29px;
+  color: #2b2b2b;
+}
+.sellCards .sellCard p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #808080;
+}
+.sellCards .sellCard .cardIcon {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 14px;
+  gap: 10px;
 }/*# sourceMappingURL=main.css.map */
