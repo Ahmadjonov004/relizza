@@ -374,4 +374,141 @@
 }
 .happyCustomers .partners .partnerIcon img {
   cursor: pointer;
+}
+
+.whoAreWe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.whoAreWe .whoText {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.whoAreWe .whoText h3 {
+  font-size: 19.4px;
+  font-weight: 500;
+  line-height: 29.1px;
+  color: #4361ee;
+  margin-bottom: 40px;
+}
+.whoAreWe .whoText h1 {
+  font-size: 39.8px;
+  font-weight: 600;
+  line-height: 47px;
+  color: #2b2b2b;
+  margin-bottom: 30px;
+}
+.whoAreWe .whoText p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #808080;
+}
+.whoAreWe .whoText .whoItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 4px 10px 30px 0px rgba(0, 0, 0, 0.0588235294);
+  background-color: #ffffff;
+  gap: 30px;
+  margin: 30px 0;
+}
+.whoAreWe .whoText .whoItem:hover {
+  background-color: #8ccdff;
+  transition: all 0.5s ease;
+}
+
+.whoItem1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 4px 10px 30px 0px rgba(0, 0, 0, 0.0588235294);
+  background-color: #ffffff;
+  gap: 30px;
+}
+.whoItem1:hover {
+  background-color: #8ccdff;
+  transition: all 0.5s ease;
+}
+
+.whoItemText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.whoItemText h4 {
+  font-size: 19.4px;
+  font-weight: 500;
+  color: #4361ee;
+}
+.whoItemText p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.whoImgCards {
+  width: 100%;
+  display: flex;
+  border: 1px solid red;
+}
+.whoImgCards .imagess {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sell {
+  display: flex;
+  flex-direction: column;
+  margin: 150px 0;
+}
+.sell .sellTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sell .sellTop .sellText {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 12px;
+}
+.sell .sellTop .sellText h3 {
+  font-size: 19.4px;
+  font-weight: 500;
+  color: #4361ee;
+}
+.sell .sellTop .sellText h1 {
+  font-size: 39.8px;
+  font-weight: 600;
+  color: #2b2b2b;
+}
+.sell .sellTop .sellText p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #808080;
+}
+.sell .sellTop .sellBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.sell .sellTop .sellBtns .sellBtn {
+  color: #3A0CA3;
+  border: 1px solid #3A0CA3;
+  padding: 12px 30px;
+  border-radius: 40px;
+}
+.sell .sellTop .sellBtns .active {
+  color: #ffffff;
+  background-color: #3A0CA3;
 }/*# sourceMappingURL=main.css.map */
